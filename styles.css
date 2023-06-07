@@ -1,14 +1,36 @@
 body {
-    cursor: url('poop-icon.png'), auto;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
+	cursor: 💩, auto;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
 }
 
 #jumpingButton {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: red;
+	color: yellow;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+#jumpingButton:hover {
+	background-color: darkred;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+button {
+	font-size: 1em;
 }
