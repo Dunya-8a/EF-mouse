@@ -1,15 +1,15 @@
 let cursorVisible = true;
 
-function hideCursor() {
-	if (cursorVisible) {
-		document.body.style.cursor = "none";
-		cursorVisible = false;
-	} else {
-		document.body.style.cursor = `url('poop-icon.png'), auto`;
-		cursorVisible = true;
-	}
-	setTimeout(hideCursor, Math.random() * (4000 - 2000) + 2000);
-}
+// function hideCursor() {
+// 	if (cursorVisible) {
+// 		document.body.style.cursor = "none";
+// 		cursorVisible = false;
+// 	} else {
+// 		document.body.style.cursor = `url('poop-icon.png'), auto`;
+// 		cursorVisible = true;
+// 	}
+// 	setTimeout(hideCursor, Math.random() * (4000 - 2000) + 2000);
+// }
 
 function jumpCursor() {
 	const x = Math.floor(Math.random() * window.innerWidth);
